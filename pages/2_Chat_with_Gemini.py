@@ -3,7 +3,7 @@ from  utils import  get_gemini_response
 from connection_snowflake import get_snowflake_conn
 
 
-st.title("💬 Chat with Gemini on Extracted Document")
+st.title("💬 Chat with Gemini on Extracted Document Data")
 
 # Step 1: Get list of uploaded file names from the table
 def get_uploaded_file_names():
