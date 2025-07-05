@@ -27,7 +27,7 @@ def get_snowflake_conn():
 
 
     ctx = snowflake.connector.connect(
-            user='payton.phelps@cginfinity.com',
+            user='sanchit.arora@cginfinity.com',
             account='VLB03298-CGINFINITY_PARTNER',
             private_key=pkb,
             warehouse='docai_wh',
